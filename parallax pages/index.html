@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Groove Street Families</title>
+
+<!--
+
+Código é poesia, por isso me considero quase um Vínícius de Moraes dos códigos!
+Hahahaha just kidding.
+
+Leia meu poema nerd:
+
+Programador quando nasce,
+Aprende binários de montão,
+Cresce escrevendo códigos,
+E faz até debug no coração.
+
+Obrigado por estar lendo isto, é sinal de que meu trabalho está sendo visualizado e compartilhado, espero que você esteja aprendendo!
+Se você está lendo isto, seja meu amigo, me mande um email vinicius@vilourenco.com.br falando a primeira coisa que vier a mente, ficarei feliz em ouvir o que se passa na sua mente neste momento.
+Code is Poetry.
+20/07/2014.
+@ViLourenco.
+http://www.vilourenco.com.br
+
+-->
+
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link href="css/customCss.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,200' rel='stylesheet' type='text/css'>    
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+      <script type="text/javascript">
+
+      $(document).ready(function(){
+         $window = $(window);
+         $('section[data-type="background"]').each(function(){
+           var $scroll = $(this);                 
+            $(window).scroll(function() {
+              var yPos = -($window.scrollTop() / $scroll.data('speed')); 
+               var coords = '50% '+ yPos + 'px';
+              $scroll.css({ backgroundPosition: coords });    
+            });
+         });  
+      }); 
+      </script>  
+
+  </head>
+  <body>
+
+    <header>
+        <h1>GROOVE STREET FAMILIES</h1>
+    </header>
+
+  <div class="container" id="containerMiddle">
+    <div class="row" id="rowContainerMiddle">
+        <div class="col-md-12">
+          <h1 id="h1Topo">HISTÓRIA DA GANGUE</h1>
+		  <p>A Grove Street Families - também conhecida como Grove Street Aliança ou GSF - é uma gangue de rua em Los Santos, San Andreas. É a gangue de Carl Johnson, protagonista do jogo. Entre todas as gangues de Los Santos, esta é a mais criticada por outras gangues por ser contra a venda de drogas pesadas, entorpecentes, prostituição e roubos na região, apesar dos inúmeros crimes e atos violentos cometidos em seu território, Ganton. A Grove Street é chefiada por Sweet, até a chegada de Carl Johnson, que passa a ser o líder da gangue e tem como objetivo principal fazer com que a gangue seja reconhecida novamente por outras gangues de San Andreas e até mesmo por pessoas. Big Smoke e Ryder também são membros notórios do grupo. Para ser reconhecida novamente como uma das maiores gangues do estado, a Grove Street Families contará com a ajuda de vário
+Grafite Grove St.jpg
+Um dos grafites da Grove
+s personagens, entre eles César Vialpando, Catalina, Denise e a gangue Varrios Los Aztecas, uma gangue aliada.
+Os Ballas e os Los Santos Vagos são os principais inimigos da Grove Street Families. Essas duas gangues são responsáveis pelo controle de mais de 60% do território criminoso de Los Santos, principalmente na região leste da cidade.<br/><br/><br/><br/></p>
+        </div>
+
+                    
+    </div>
+  </div>
+    
+
+  <section id="parallaxBar" data-speed="6" data-type="background">
+    <div class="container-fluid">
+    </div>
+  </section>         
+
+  <footer>
+    <div class="container">
+      <div class="row-fluid" style="margin-top:45px;">
+        <div class="col-md-6">
+          <span class="spanFooterBar">Desenvolvimento by: Pedro Albuquerque - 2016</span>
+        </div>
+        <div class="col-md-6">
+          <ul class="socialIcons" style="float:right;">
+            <a href="#" target="_blank"><li><i class="fa fa-instagram" style="color:#fff;font-size:28px;"></i></li></a>
+            <a href="#" target="_blank"><li><i class="fa fa-facebook-square fa" style="color:#fff;font-size:28px;"></i></li></a>
+            <a href="#" target="_blank"><li><i class="fa fa-twitter-square fa" style="color:#fff;font-size:28px;"></i></li></a>                   
+          </ul>
+        </div>  
+      </div>
+    </div>
+  </footer>  
+
+  </body>
+</html>

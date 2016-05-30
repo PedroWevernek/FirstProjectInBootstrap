@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+            <title>Grand Theft Auto</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+    <!-- jQuery for Parallax -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Links of Caroussel -->
+    <link rel="stylesheet" type="text/css" href="caroussel/dist/css/slider-pro.min.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="caroussel/css/examples.css" media="screen"/>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+    <!-- Functions Caroussel -->
+    <script type="text/javascript" src="caroussel/libs/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="caroussel/dist/js/jquery.sliderPro.min.js"></script>
+
+    <!-- Configuration of Parallax in JavaScript -->
+    <script type="text/javascript">
+
+      $(document).ready(function(){
+         $window = $(window);
+         $('section[data-type="background"]').each(function(){
+           var $scroll = $(this);                 
+            $(window).scroll(function() {
+              var yPos = -($window.scrollTop() / $scroll.data('speed')); 
+               var coords = '100% '+ yPos + 'px';
+              $scroll.css({ backgroundPosition: coords });    
+            });
+         });  
+      }); 
+    </script>  
+
+    <script type="text/javascript">
+        $( document ).ready(function( $ ) {
+        $( '#example1' ).sliderPro({
+            width: 960,
+            height: 500,
+            arrows: true,
+            buttons: false,
+            waitForLayers: true,
+            thumbnailWidth: 200,
+            thumbnailHeight: 100,
+            thumbnailPointer: true,
+            autoplay: false,
+            autoScaleLayers: false,
+            breakpoints: {
+                500: {
+                    thumbnailWidth: 120,
+                    thumbnailHeight: 50
+                }
+            }
+        });
+    });
+    </script>
+
+
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+
+<body id="page-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Comece no GTA!</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">Sobre</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Gangues</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+          <section id="parallaxBar" data-speed="6" data-type="background">
+                    <div class="container-fluid">
+                    </div>
+
+        <div class="header-content">
+
+            <div class="header-content-inner">
+
+                <h1>GRAND THEFT AUTO</h1>
+                <hr>
+                <p class="opacity-text-container">Grand Theft Auto é uma série de jogos de computador e videogames criada por David Jones, e Mike Dailly, e posteriormente pelos irmãos Dan e Sam Houser, Leslie Benzies e Aaron Garbut.</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll opacity-saiba-mais" >Saiba mais!</a>
+            </div>
+
+        </div>
+
+            </section>   
+    </header>
+
+
+
+
+    <section class="bg-primary" id="about">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">SOBRE O GTA ...</h2>
+                    <hr class="light">
+                    <p class="text-faded">Grand Theft Auto (abreviado GTA ou, estilisticamente, gta) é uma série de jogos de computador e videogames criada por David Jones, e Mike Dailly, e posteriormente pelos irmãos Dan e Sam Houser, Leslie Benzies e Aaron Garbut. A maioria dos jogos foi desenvolvida pela Rockstar North (antiga DMA Design) e publicada pela Rockstar Games. O nome da série é um termo policial da língua inglesa utilizado para identificar roubos de automóveis. Grand Theft refere-se a furtos de valor elevado (maior que US$ 40,00 nos Estados Unidos) e Auto designa os automóveis. O nome desse crime, no Brasil, é Roubo Qualificado de Automóveis e em Portugal designa-se por carjacking. A série GTA faz homenagens a diversas personalidades como Eazy-E (inspirou o personagem Ryder no game Grand Theft Auto: San Andreas) e outras.
+                    <br/><br/>
+
+A série é focada em cidades fictícias dominadas pelo crime e pelas gangues de rua, fortemente modeladas com base em grandes metrópoles, principalmente dos Estados Unidos, mas com passagens também pela Inglaterra. Os jogos da série são em mundo aberto e o personagem jogável (um criminoso, protagonista de um enredo repleto de atividades ilegais, como violência, tráfico de drogas, assassinato, prostituição etc.) pode cumprir missões para o progresso da história, bem como participar de ações não lineares, todas consistindo de ação, aventura, condução, RPG, corridas, entre outros.
+                    <br/><br/>
+
+O desenvolvedor de videogames DMA Design foi responsável pelo início da série em 1997, que atualmente conta com onze jogos autônomos e quatro pacotes de expansão. O terceiro jogo da cronologia, Grand Theft Auto III, foi muito elogiado, já que trouxe a série para um cenário 3D com muito mais experiência, e é considerado um título de referência para o jogo Grand Theft Auto clone. Títulos subsequentes, tais como Driv3r, tiveram seu desenvolvimento baseado no padrão introduzido em Grand Theft Auto III.
+                    <br/><br/>
+A franquia, assim como Call of Duty, é um dos produtos de entretenimento mais rentáveis na história, arrecadando com seu último lançamento quase um bilhão de dólares nas primeiras 24 horas de lançamento. Bateu também vários recordes no Guinness Book, inclusive como o jogo de ação de videogame a alcançar o maior valor em vendas em 24 horas.<br/><br/></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>ALGUMAS GANGUES DO GTA</h2>
+                
+                <div class="alert alert-warning alert-dismissible alertMobile" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <strong>ATENÇÃO </strong>para navegação em dispositivos mobile, pressione sobre as imagens para ler as informações contidas nas mesmas.
+              
+                </div> 
+            </div>
+        </div>
+    </aside>
+
+
+    <!-- PORTFÓLIO COM IMAGENS DAS GANGUES -->
+
+    <section class="no-padding" id="portfolio">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+<div id="example1" class="slider-pro forMobile">
+        <div class="sp-slides">
+            <div class="sp-slide">
+                <img class="sp-image" src="caroussel/src/css/images/blank.gif"
+                    data-src="caroussel/src/css/images/1.jpg"
+                    data-retina="caroussel/src/css/images/1.jpg"/>
+            
+                <p class="sp-layer sp-black sp-padding" 
+                    data-position="bottomLeft"
+                    data-show-transition="up" data-hide-transition="down">
+                    Lorem ipsum dolor sit amet <span class="hide-small-screen">, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span class="hide-medium-screen">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                </p>
+            </div>
+
+            <div class="sp-slide">
+                <img class="sp-image" src="caroussel/src/css/images/blank.gif"
+                    data-src="caroussel/src/css/images/2.jpg"
+                    data-retina="caroussel/src/css/images/2.jpg"/>
+
+
+                <p class="sp-layer sp-black sp-padding" 
+                    data-position="bottomLeft"
+                    data-show-transition="up" data-hide-transition="down">
+                    Lorem ipsum dolor sit amet <span class="hide-small-screen">, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span class="hide-medium-screen">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                </p>
+            </div>
+
+            <div class="sp-slide">
+                <img class="sp-image" src="caroussel/src/css/images/blank.gif"
+                    data-src="caroussel/src/css/images/3.jpg"
+                    data-retina="caroussel/src/css/images/3.jpg"/>
+
+                <p class="sp-layer sp-black sp-padding" 
+                    data-position="bottomLeft"
+                    data-show-transition="up" data-hide-transition="down">
+                    Lorem ipsum dolor sit amet <span class="hide-small-screen">, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span class="hide-medium-screen">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                </p>
+            </div>
+
+            <div class="sp-slide">
+                <img class="sp-image" src="caroussel/src/css/images/blank.gif"
+                    data-src="caroussel/src/css/images/4.jpg"
+                    data-retina="caroussel/src/css/images/4.jpg"/>
+
+                <p class="sp-layer sp-black sp-padding" 
+                    data-position="bottomLeft"
+                    data-show-transition="up" data-hide-transition="down">
+                    Lorem ipsum dolor sit amet <span class="hide-small-screen">, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span class="hide-medium-screen">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                </p>
+            </div>
+
+            <div class="sp-slide">
+                <img class="sp-image" src="caroussel/src/css/images/blank.gif"
+                    data-src="caroussel/src/css/images/5.jpg"
+                    data-retina="caroussel/src/css/images/5.jpg"/>
+
+                <p class="sp-layer sp-black sp-padding" 
+                    data-position="bottomLeft"
+                    data-show-transition="up" data-hide-transition="down">
+                    Lorem ipsum dolor sit amet <span class="hide-small-screen">, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span class="hide-medium-screen">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                </p>
+            </div>
+
+            <div class="sp-slide">
+                <img class="sp-image" src="caroussel/src/css/images/blank.gif"
+                    data-src="caroussel/src/css/images/6.jpg"
+                    data-retina="caroussel/src/css/images/6.jpg"/>
+
+                <p class="sp-layer sp-black sp-padding" 
+                    data-position="bottomLeft"
+                    data-show-transition="up" data-hide-transition="down">
+                    Lorem ipsum dolor sit amet <span class="hide-small-screen">, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span> <span class="hide-medium-screen">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+                </p>
+            </div>
+
+        <div class="sp-thumbnails">
+            <div class="sp-thumbnail">
+                <div class="sp-thumbnail-title">G. STREET</div>
+                <div class="sp-thumbnail-description"></div>
+            </div>
+
+            <div class="sp-thumbnail">
+                <div class="sp-thumbnail-title">BALLAS</div>
+                <div class="sp-thumbnail-description"></div>
+            </div>
+
+            <div class="sp-thumbnail">
+                <div class="sp-thumbnail-title">VAGOS</div>
+                <div class="sp-thumbnail-description"></div>
+            </div>
+
+            <div class="sp-thumbnail">
+                <div class="sp-thumbnail-title">LOS AZTECAS</div>
+                <div class="sp-thumbnail-description"></div>
+            </div>
+
+            <div class="sp-thumbnail">
+                <div class="sp-thumbnail-title">S. F RIFAS</div>
+                <div class="sp-thumbnail-description"></div>
+            </div>
+
+            <div class="sp-thumbnail">
+                <div class="sp-thumbnail-title">TRIADS</div>
+                <div class="sp-thumbnail-description"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="forDesktop no-gutter">
+    <div class="col-lg-4 col-sm-6 portfolio-box" href="file:///C:/Users/pferreira/Desktop/startbootstrap-creative-1.0.2/startbootstrap-creative-1.0.2/startbootstrap-creative-1.0.2/parallax%20pages/index.html">
+        <img src="img/portfolio/1.jpg" class="img-responsive" alt="">
+        <div class="portfolio-box-caption">
+            <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                GROOVE STREET FAMILIES
+                </div>
+                <div class="project-name">
+                Clique sobre para mais informações.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 col-sm-6 portfolio-box" href="http://www.youtube.com">
+    <img src="img/portfolio/2.jpg" class="img-responsive" alt="">
+        <div class="portfolio-box-caption">
+            <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                THE BALLAS
+                </div>
+                <div class="project-name">
+                Clique sobre para mais informações.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 col-sm-6 portfolio-box" href="http://www.claro.com.br">
+    <img src="img/portfolio/3.jpg" class="img-responsive" alt="">
+        <div class="portfolio-box-caption">
+            <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                LOS SANTOS VAGOS
+                </div>
+                <div class="project-name">
+                Clique sobre para mais informações.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 col-sm-6 portfolio-box" href="http://www.facebook.com">
+    <img src="img/portfolio/4.jpg" class="img-responsive" alt="">
+        <div class="portfolio-box-caption">
+            <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                VARIOS LOS AZTECAS
+                </div>
+                <div class="project-name">
+                Clique sobre para mais informações.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 col-sm-6 portfolio-box" href="http://travestis.com">
+    <img src="img/portfolio/5.jpg" class="img-responsive" alt="">
+        <div class="portfolio-box-caption">
+            <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                SAN FIERRO RIFAS
+                </div>
+                <div class="project-name">
+                Clique sobre para mais informações.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4 col-sm-6 portfolio-box" href="http://google.com">
+    <img src="img/portfolio/6.jpg" class="img-responsive" alt="">
+        <div class="portfolio-box-caption">
+            <div class="portfolio-box-caption-content">
+                <div class="project-category text-faded">
+                TRIADS
+                </div>
+                <div class="project-name">
+                Clique sobre para mais informações.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Gostou da proposta do nosso site?</h2>
+                    <hr class="primary">
+                    <p>Então entre com contato conosco e dê sua opinião.</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x wow bounceIn"></i>
+                    <p>+55 11 945245498</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="mailto:pedro.albuquerque@cuattro.com.br">pedro.albuquerque@cuattro.com.br</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
+    <!-- Function click of portfolio-->
+    <script type="text/javascript">
+        $('.portfolio-box').click(function () {
+            if ($(this).hasClass('active')) {
+                window.location = $(this).attr('href')
+            } else {
+                $('.portfolio-box').removeClass('active')
+
+                $(this).addClass('active')
+            }
+
+        })
+    </script>
+
+</body>
+
+</html>

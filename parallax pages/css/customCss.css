@@ -1,0 +1,94 @@
+/*
+Código é poesia, por isso me considero quase um Vínícius de Moraes dos códigos!
+Hahahaha just kidding.
+
+Leia meu poema nerd:
+
+Programador quando nasce,
+Aprende binários de montão,
+Cresce escrevendo códigos,
+E faz até debug no coração.
+
+Obrigado por estar lendo isto, é sinal de que meu trabalho está sendo visualizado e compartilhado, espero que você esteja aprendendo!
+Se você está lendo isto, seja meu amigo, me mande um email vinicius@vilourenco.com.br falando a primeira coisa que vier a mente, ficarei feliz em ouvir o que se passa na sua mente neste momento.
+Code is Poetry.
+20/07/2014.
+@ViLourenco.
+http://www.vilourenco.com.br
+*/
+
+header{
+
+	background-color:#336600;
+	max-height:170px;
+		text-shadow: #000 2px 2px 5px;
+}
+
+h1 {
+
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+	text-transform: uppercase;
+	font-weight: 400;	
+	color:#FFF;	
+	margin-top: 0px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#h1Topo{
+	font-family: 'Raleway', sans-serif;
+	text-align:center;
+	font-weight: 400;	
+	color:#000;
+	padding-bottom: 60px;
+}
+
+#containerMiddle{
+	max-height: 600px;
+}
+
+#rowContainerMiddle{	
+	float: none;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+#parallaxBar{
+	height:750px;
+	background-color:#004c82;
+	background: url(../img/bgparallax.jpg) 50% 0 fixed;
+    position: relative; 
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;	
+}
+
+#footerMenu{
+	margin-top:40px;
+	margin-bottom: 0px;
+}
+
+footer{
+	height:100px;
+	background-color:#FFa500;	
+}
+
+.spanFooterBar{
+	color:#FFF;
+	font-family: 'Raleway', sans-serif;
+	font-size:14px;
+	font-weight: 500;	
+	text-shadow: #000 2px 2px 1px;
+}
+
+.socialIcons li{
+	display: inline-block;
+	list-style: none;
+	margin-left:10px;
+}
+
+.socialIcons li:hover{
+	opacity:0.5;
+	filter:Alpha(opacity=50); /* IE8 and earlier */	
+}
